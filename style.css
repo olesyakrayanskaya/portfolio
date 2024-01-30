@@ -44,7 +44,7 @@ body {
 }
 
 .personal {
-  margin: 0 auto 20px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -81,8 +81,7 @@ h2 {
 }
 
 .portfolio {
-  margin: 20px 0;
-  padding: 40px 0 0;
+  padding: 20px 0 60px;
   border-top: 1px rgb(72, 72, 75) solid;
 }
 
@@ -139,9 +138,9 @@ h2 {
   flex-wrap: wrap;
   align-items: center;
   padding: 10px;
-  margin: 40px 0;
+  margin: 10px 0;
   width: 100%;
-  padding: 30px 0;
+  padding: 10px 0;
   border-top: 1px rgb(72, 72, 75) solid;
 }
 
