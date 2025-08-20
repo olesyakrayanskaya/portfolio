@@ -13,6 +13,7 @@ html,
 body {
   height: 100%;
   overflow-x: hidden;
+  font-size: 18px;
 }
 
 :active,
@@ -60,6 +61,40 @@ h2 {
   text-align: center;
   font-size: 24px;
   font-weight: 700;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 16px;
+  border-top: 1px rgb(72, 72, 75) solid;
+}
+
+.about__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.about__link {
+  margin-top: 16px;
+  text-decoration: underline;
+  transition: color 0.4s;
+}
+
+@media (hover:hover) {
+  .about__link:hover {
+    color: rgb(72, 72, 75);
+  }
+}
+
+@media (hover:none) {
+  .about__link:active {
+    color: rgb(72, 72, 75);
+  }
 }
 
 .scills {
@@ -111,10 +146,10 @@ h2 {
   width: 450px;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 1px rgb(72, 72, 75) solid;
   -o-object-position: top;
-     object-position: top;
+  object-position: top;
 }
 
 .portfolio__title {
@@ -124,11 +159,19 @@ h2 {
 
 .portfolio__link {
   margin-top: 20px;
-  font-size: 18px;
+  transition: color 0.4s;
 }
 
-.portfolio__link:hover {
-  color: rgb(72, 72, 75);
+@media (hover:hover) {
+  .portfolio__link:hover {
+    color: rgb(72, 72, 75);
+  }
+}
+
+@media (hover:none) {
+  .portfolio__link:active {
+    color: rgb(72, 72, 75);
+  }
 }
 
 .contacts {
@@ -159,24 +202,27 @@ h2 {
   width: 32px;
   height: 32px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   margin-bottom: 20px;
+  transition: transform 0.8s;
 }
 
-.contact__icon:hover {
-  transform: scale(1.2);
-  transition: transform 1s linear;
+@media (hover:hover) {
+  .contact__icon:hover {
+    transform: scale(1.1);
+  }
 }
 
 .contact__info {
   text-align: center;
-  font-size: 18px;
   font-weight: 600;
+  transition: color 0.4s;
 }
 
-.contact__info:hover {
-  text-decoration: underline;
-  color: rgb(72, 72, 75);
+@media (hover:hover) {
+  .contact__info:hover {
+    color: rgb(72, 72, 75);
+  }
 }
 
 @media (max-width: 450px) {
