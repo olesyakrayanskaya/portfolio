@@ -1,11 +1,214 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
     <title>Резюме</title>
 </head>
-<body>
-   Резюме 
+
+<body class="resume">
+    <div class="container">
+        <section class="header">
+            <img class="header__img" src="../img/res-avatar-sm.jpg" alt="фото" width="120" height="120">
+            <h1 class="header__title">Frontend-разработчик</h1>
+        </section>
+        <section class="skills">
+            <h2 class="skills__title">Профессиональные навыки</h2>
+            <ul class="skills__list">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS</li>
+                <li class="skills__item">SCSS</li>
+                <li class="skills__item">JS</li>
+                <li class="skills__item">TS</li>
+                <li class="skills__item">React</li>
+                <li class="skills__item">Анимации: CSS, JS, GSAP</li>
+                <li class="skills__item">GIT</li>
+                <li class="skills__item">Webpack</li>
+                <li class="skills__item">Vite</li>
+            </ul>
+            <h2 class="skills__title">Сертификаты</h2>
+            <ul class="skills__list">
+                <li class="skills__item skills__item_link"><a class="skills__link" href="../certificates/CSS.pdf" target="_blank">CSS</a></li>
+                <li class="skills__item skills__item_link"><a class="skills__link"  href="../certificates/HTML.pdf" target="_blank">HTML</a></li>
+                <li class="skills__item skills__item_link"><a class="skills__link"  href="../certificates/JS.pdf" target="_blank">JS</a></li>
+            </ul>
+        </section>
+        <section class="experience">
+            <h2 class="experience__title">Опыт работы</h2>
+            <ul class="experience__list">
+                <li class="experience__item">
+                    <div class="experience__period">Май 2024 — Июль 2025</div>
+                    <h3 class="experience__company">МассПроект</h3>
+                    <span class="experience__city">Ставрополь</span>
+                    <h4 class="experience__post">Фронтенд-разработчик</h4>
+                    <div class="experience__description">
+                        <div class="experience__desc-item">
+                            <h5 class="experience__desc-title">Обязанности:</h5>
+                            <p class="experience__text">
+                                Разработка современных веб-приложений, интернет-магазинов и&nbsp;корпоративных сайтов
+                                с&nbsp;использованием HTML5, CSS3 (SCSS), JavaScript (ES6+), React.
+                                Адаптивная и&nbsp;кроссбраузерная верстка .
+                                Разработка анимаций CSS, JS, GSAP.
+                                Внесение правок в&nbsp;проекты.
+                                Добавление новых модулей и&nbsp;функционала в&nbsp;проекты.
+                                Оптимизация и&nbsp;рефакторинг кода, повышение производительности.
+                                Декомпозиция и&nbsp;оценка задач, планирование разработки.
+                                Взаимодействие с&nbsp;дизайнерами, менеджерами и&nbsp;другими разработчиками.
+                                Сборка проектов с&nbsp;помощью Webpack, Vite, контроль версий (Git), методология БЭМ.
+                            </p>
+                        </div>
+                        <div class="experience__desc-item">
+                            <h5 class="experience__desc-title">Достижения:</h5>
+                            <p class="experience__text">
+                                Разработала несколько крупных интернет-магазинов и&nbsp;корпоративных сайтов
+                                с&nbsp;сложной
+                                анимацией и&nbsp;интерактивными интерфейсами.
+                                Создала корпоративную библиотеку UI-компонентов, что ускорило разработку новых проектов.
+                                Разработала коллекцию анимаций для типовых решений, что повысило конверсию клиентских
+                                проектов.
+                                Провела рефакторингкорпоративной библиотеки компонентов для повышения accessibility
+                                продуктов.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="experience__item">
+                    <div class="experience__period">Февраль 2022 — Май 2024</div>
+                    <h3 class="experience__company">Самозанятый</h3>
+                    <span class="experience__city">Ставрополь</span>
+                    <h4 class="experience__post">HTML-верстальщик, Фронтенд-разработчик</h4>
+                    <div class="experience__description">
+                        <div class="experience__desc-item">
+                            <h5 class="experience__desc-title">Обязанности:</h5>
+                            <p class="experience__text">
+                                Кроссплатформенная адаптивная верстка сайтов с&nbsp;использованием
+                                HTML, CSS, SCSS, JavaScript, React,БЭМ, Webpack, GIT.
+                                Оптимизация доступности сайтов. Разработка SPA, пользовательских
+                                интерфейсов на&nbsp;JavaScript и&nbsp;React. Доработка, добавление функционала
+                                и&nbsp;внесение правок в
+                                проекты.
+                            </p>
+                        </div>
+                        <div class="experience__desc-item">
+                            <h5 class="experience__desc-title">Достижения:</h5>
+                            <p class="experience__text">
+                                Реализовала более 20&nbsp;адаптивных интерфейсов. Провела рефакторинг проектов,
+                                что повысило производительность и читаемость кода. Улучшила доступность (a11y) проектов.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="experience__item">
+                    <div class="experience__period">Октябрь 2013 — Июнь 2021</div>
+                    <h3 class="experience__company">Самозанятый</h3>
+                    <span class="experience__city">Ставрополь</span>
+                    <h4 class="experience__post">Репетитор по математике</h4>
+                    <div class="experience__description">
+                        <div class="experience__desc-item">
+                            <h5 class="experience__desc-title">Обязанности:</h5>
+                            <p class="experience__text">
+                                Объяснение ученикам общеобразовательной программы по&nbsp;математике,алгебре
+                                и&nbsp;геометрии;
+                                помощь в&nbsp;выполнении домашних заданий.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="experience__item">
+                    <div class="experience__period">Сентябрь 2008 — Август 2010</div>
+                    <h3 class="experience__company">ЗАО «Тандер»</h3>
+                    <span class="experience__city">Краснодар</span>
+                    <h4 class="experience__post">Аналитик службы обеспечения продаж</h4>
+                    <div class="experience__description">
+                        <div class="experience__desc-item">
+                            <h5 class="experience__desc-title">Обязанности:</h5>
+                            <p class="experience__text">
+                                Анализ показателей работы подразделений; систематизация и&nbsp;анализ
+                                отчетности,проведение
+                                первичного анализа отклонений в&nbsp;процессах; подготовка технической документации для
+                                автоматизации отчетов; разработка и&nbsp;формирование отчетности по&nbsp;внедряемым
+                                проектам.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="experience__item">
+                    <div class="experience__period">Май 2008 — Сентябрь 2008</div>
+                    <h3 class="experience__company">ООО Богемия Плюс К</h3>
+                    <span class="experience__city">Краснодар</span>
+                    <h4 class="experience__post">Системный аналитик</h4>
+                    <div class="experience__description">
+                        <div class="experience__desc-item">
+                            <h5 class="experience__desc-title">Обязанности:</h5>
+                            <p class="experience__text">
+                                Анализ показателей работы департамента закупок, формирование рекомендаций для
+                                повышения эффективности работы департамента, систематизация и&nbsp;анализ отчетности,
+                                подготовка технической документации для автоматизации отчетов; разработка и
+                                формирование отчетности по&nbsp;внедряемым проектам, составление рекомендаций для
+                                корректировки процессов внедрения.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="experience__item">
+                    <div class="experience__period">Март 2007 — Май 2008</div>
+                    <h3 class="experience__company">ЗАО «Тандер»</h3>
+                    <span class="experience__city">Краснодар</span>
+                    <h4 class="experience__post">Специалист отдела закупок</h4>
+                    <div class="experience__description">
+                        <div class="experience__desc-item">
+                            <h5 class="experience__desc-title">Обязанности:</h5>
+                            <p class="experience__text">
+                                Формирование заказа поставщикам; обеспечение наличия товара по&nbsp;своим товарным
+                                группам; контроль сроков и&nbsp;качества поставки; контроль факта и&nbsp;своевременности
+                                отгрузки/приемки товара; анализ отчетности по&nbsp;закупкам, оборачиваемости, остаткам
+                                товаров;
+                                работа с&nbsp;ценами, бонусами, рекламациями.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="experience__item">
+                    <div class="experience__period">Апрель 2006 — Март 2007</div>
+                    <h3 class="experience__company">ЗАО «Тандер»</h3>
+                    <span class="experience__city">Краснодар</span>
+                    <h4 class="experience__post">Специалист отдела по работе с&nbsp;транзитными документами</h4>
+                    <div class="experience__description">
+                        <div class="experience__desc-item">
+                            <h5 class="experience__desc-title">Обязанности:</h5>
+                            <p class="experience__text">
+                                Контроль и&nbsp;учет приходной документации местных поставщиков, ведение базы данных,
+                                составление отчетности.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="education">
+            <h2 class="education__title">Образование</h2>
+            <ul class="education__list">
+                <li class="education__item">
+                    <div class="education__period">2016 - 2017</div>
+                    <h3 class="education__institution">Северо-Кавказский федеральный университет</h3>
+                    <span class="education__city">Ставрополь</span>
+                    <h4 class="education__faculty">Факультет информационных технологий и&nbsp;телекоммуникаций</h4>
+                    <h5 class="education__profession">Специалист в&nbsp;области компьютерной графики и&nbsp;Web-дизайна
+                    </h5>
+                </li>
+                <li class="education__item">
+                    <div class="education__period">2001 - 2006</div>
+                    <h3 class="education__institution">Кубанский государственный университет</h3>
+                    <span class="education__city">Краснодар</span>
+                    <h4 class="education__faculty">Факультет математики и&nbsp;компьютерных наук</h4>
+                    <h5 class="education__profession">Математик, преподаватель математики</h5>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <script src="../index.js"></script>
 </body>
+
 </html>
